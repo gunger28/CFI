@@ -1,0 +1,146 @@
+@font-face {
+  font-family: "RedRose";
+  src: url(../assets/red_rose/RedRose-Regular.ttf);
+}
+
+body {
+  margin: unset;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  background: #ffb7ee;
+  background: linear-gradient(135deg, #fda1ff 0%, #71aaff 50%, #fda1ff 100%);
+}
+
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url(../assets/background2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+  z-index: -1;
+}
+
+.logo {
+  position: fixed;
+  z-index: 10;
+  left: calc(50% - 175px);
+  top: calc(50% - 280px);
+  background: url(../assets/voids.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 350px;
+  height: 200px;
+  -webkit-filter: blur(1px);
+          filter: blur(1px);
+  -webkit-transition: -webkit-filter 2s;
+  transition: -webkit-filter 2s;
+  transition: filter 2s;
+  transition: filter 2s, -webkit-filter 2s;
+}
+
+.panel {
+  width: 350px;
+  height: 300px;
+  margin: auto auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 15% 23% 23% 23% 15%;
+      grid-template-rows: 15% 23% 23% 23% 15%;
+  background: rgba(255, 255, 255, 0.55);
+  -webkit-box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.panel .title {
+  text-align: center;
+  width: 100%;
+  height: 60%;
+  margin: auto auto;
+  font-family: RedRose;
+  font-size: 48px;
+  line-height: 60px;
+  /* identical to box height */
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #5887ff;
+}
+
+.panel .email {
+  width: 80%;
+  height: 40px;
+  margin: auto auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #f5f5f5;
+  border-radius: 6px;
+  border: 2px solid #4fff8b;
+  -webkit-box-shadow: 0 0 0 2px #4fff8b50;
+          box-shadow: 0 0 0 2px #4fff8b50;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.panel .email .imgInp {
+  width: 15%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70%;
+}
+
+.panel .email input {
+  width: 85%;
+  height: 90%;
+  background: none;
+  border: none;
+  font-family: RedRose;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  /* identical to box height */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #414141;
+}
+
+.panel .email input:focus {
+  border: none;
+  outline: none;
+}
+
+.panel .send {
+  width: 40%;
+  height: 40px;
+  margin: auto auto;
+  background: #4fff8b;
+  border-radius: 4px;
+  border: none;
+  -webkit-box-shadow: 0px 4px 0px #3dc76b90;
+          box-shadow: 0px 4px 0px #3dc76b90;
+  font-family: RedRose;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height */
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+/*# sourceMappingURL=login.css.map */
