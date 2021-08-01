@@ -66,7 +66,6 @@ body {
   font-family: RedRose;
   font-size: 48px;
   line-height: 60px;
-  /* identical to box height */
   display: -ms-grid;
   display: grid;
   -webkit-box-align: center;
@@ -110,7 +109,6 @@ body {
   font-weight: normal;
   font-size: 20px;
   line-height: 26px;
-  /* identical to box height */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -134,13 +132,12 @@ body {
   font-family: RedRose;
   font-size: 24px;
   line-height: 30px;
-  /* identical to box height */
   display: -ms-grid;
   display: grid;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 /*# sourceMappingURL=login.css.map */

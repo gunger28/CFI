@@ -15,14 +15,66 @@ button {
   font-size: 20px;
   width: 300px;
   height: 50px;
+  margin: auto auto;
   line-height: 22px;
-  /* identical to box height */
   display: -ms-grid;
   display: grid;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+}
+
+input {
+  border: 2px solid #ffbb7c;
+  border-radius: 7px;
+  text-indent: 3px;
+}
+
+.infoTable {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: RedRose;
+  height: 25px;
+  line-height: 22px;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+.infoTable .id {
+  width: 60px;
+  background-color: #ffa861;
+  text-align: center;
+}
+
+.infoTable .name {
+  padding-left: 5px;
+  width: calc(100% - 170px);
+  background-color: #ffc56d;
+}
+
+.infoTable .dbInfo {
+  width: 110px;
+  padding-left: 5px;
+  background-color: #ffdb98;
+}
+
+button {
+  border: 2px solid #bbff00;
+  border-radius: 10px;
+  background-color: #ff5f5f;
+  color: white;
+  height: 90%;
+  font-size: 16px;
+  font-family: RedRose;
+  line-height: 17px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .info {
@@ -30,8 +82,9 @@ button {
   font-size: 20px;
   width: 300px;
   height: 25px;
+  margin: auto auto;
+  font-family: RedRose;
   line-height: 22px;
-  /* identical to box height */
   display: -ms-grid;
   display: grid;
   -webkit-box-align: center;
@@ -40,17 +93,114 @@ button {
   text-align: center;
 }
 
-.line:hover {
-  cursor: pointer;
-  background-color: #d3ff82;
-}
-
-li {
-  margin-top: 5px;
-  background-color: aquamarine;
-}
-
 .crosser {
-  margin-top: 50px;
+  width: 40%;
+  background-color: #ffdb98;
+}
+
+.crosser .dataLine {
+  margin-bottom: 5px;
+  background-color: #ffb452;
+  font-family: RedRose;
+  height: 25px;
+  line-height: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.crosser .dataLine .dataID {
+  width: 60px;
+  height: 100%;
+  background-color: #ff7d32;
+  margin-right: 5px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding-left: 0px;
+  line-height: 22px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.idBlock {
+  background-color: #ffa125;
+  border-radius: 15px;
+  font-size: 16px;
+  width: 30px;
+  margin-right: 7px;
+  max-height: 60px;
+  font-weight: 500;
+  font-family: RedRose;
+  line-height: 22px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.infoBlock {
+  border-radius: 15px;
+  font-size: 16px;
+  width: 220px;
+  max-height: 60px;
+  font-weight: 500;
+  font-family: RedRose;
+  line-height: 22px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.allData {
+  margin-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 300px;
+  background-color: #ffb46e;
+  border-radius: 15px;
+}
+
+.allData:hover {
+  background-color: #c08955;
+}
+
+.centreMain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ffd883;
+  width: 50%;
+  height: 500px;
+  margin: auto auto;
+}
+
+.treePlane {
+  background-color: antiquewhite;
+  width: 60%;
+  margin: 0;
+}
+
+.forma {
+  width: 50%;
+  height: 30px;
+  margin: auto auto;
+}
+
+.exit {
+  float: right;
 }
 /*# sourceMappingURL=style.css.map */
